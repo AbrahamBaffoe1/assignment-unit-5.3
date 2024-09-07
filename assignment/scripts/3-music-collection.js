@@ -48,8 +48,9 @@ function findByArtist(collection, artist) {
   
   return results;
 }
-console.log(findByArtist(myCollection, "Pink Floyd")); // Should return 2 albums
-console.log(findByArtist(myCollection, "The Rolling Stones")); // Should return an empty array
+// Step 6, Returning output (2 albums) in console format to see empty array
+console.log(findByArtist(myCollection, "Pink Floyd")); 
+console.log(findByArtist(myCollection, "The Rolling Stones"));
 
 
 // Step 7
@@ -84,6 +85,7 @@ function search(collection, searchCriteria = {}) {
   }
   
   return results;
+  
 }
 
 // Step 8. Consoling to see  the results and validate to check errors if output is achieved.
